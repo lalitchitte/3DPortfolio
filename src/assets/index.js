@@ -21,10 +21,12 @@ import threejs from "./tech/threejs.svg";
 import sqlserver from './tech/sql-server.png';
 
 import company from './company/logo.png';
+import intern from './company/intern.png';
 
 import carrent from "./hotel.png";
 import jobit from "./coach.png";
 import tripguide from "./gaushala.png";
+import blog from './blog.png';
 
 export {
   logo,
@@ -48,7 +50,9 @@ export {
   tailwind,
   threejs,
   company,
+  intern,
   carrent,
   jobit,
   tripguide,
+  blog
 };

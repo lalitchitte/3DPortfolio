@@ -15,9 +15,11 @@ import {
   net,
   sqlserver,
   company,
+  intern,
   carrent,
   jobit,
   tripguide,
+  blog,
   threejs,
 } from "../assets";
 
@@ -108,13 +110,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Developer Intern",
+    company_name: "Arthadisha Consultancy Pvt. Ltd.",
+    icon: intern,
+    iconBg: "#FFF",
+    date: "Feb 2023 - July 2023",
+    points: [
+      "Developing and maintaining web applications using HTML, CSS, Javascript, Angular and other technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
     title: "React Native Developer",
     company_name: "Wind Hans Technologies",
     icon: company,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "Aug 2023 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React Native and other related technologies.",
+      "Developing and maintaining mobile applications using React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing buttery smooth UI and ensuring multi-device compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -124,7 +138,7 @@ const experiences = [
     title: ".NET Developer",
     company_name: "Wind Hans Technologies",
     icon: company,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "Sep 2024 - Current",
     points: [
       "Developing and maintaining web applications using blazor framework and other .NET technologies.",
@@ -233,6 +247,27 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://srgfoundations.com",
+  },
+  {
+    name: "Blazing Blog App",
+    description:
+      "A cross browser blog application where user can see the popular and latest blogs with detailed view.",
+    tags: [
+      {
+        name: "blazor-server",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".net",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: "https://github.com/lalitchitte/BlazingBlog",
   },
 ];
 
